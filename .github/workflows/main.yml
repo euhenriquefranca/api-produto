@@ -43,6 +43,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             euhenriquefranca/api-bootcamp-produto:latest
             euhenriquefranca/api-bootcamp-produto:${{github.run_number}}
